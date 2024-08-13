@@ -1,0 +1,42 @@
+{
+  "header": {
+    "logo": {
+      "link": "https://airbnb.io/javascript/react/#naming"
+    },
+    "nav": [
+      {
+        "link": "",
+        "title": "Home"
+      },
+      {
+        "link": "",
+        "title": "Buyers"
+      },
+      {
+        "link": "",
+        "title": "Sellers"
+      },
+      {
+        "link": "",
+        "title": "About Us"
+      },
+      {
+        "link": "",
+        "title": "Reviews"
+      },
+      {
+        "link": "",
+        "title": "Contact Us"
+      }
+    ],
+    "navControls": {
+      "icon": "http://www.w3.org/2000/svg"
+    }
+  },
+  "aboutUs": {
+    "hero": {
+      "bgImg": "",
+      "title": ""
+    }
+  }
+}

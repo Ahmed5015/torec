@@ -1,7 +1,8 @@
 import React from "react";
-import NavBar from "@/components/layout/NavBar";
 import Hero from "@/components/about-us/Hero";
-const page = () => {
+import NavBar from "../layout/NavBar";
+
+const AboutUs = () => {
   return (
     <div>
       <NavBar />
@@ -12,4 +13,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default AboutUs;
