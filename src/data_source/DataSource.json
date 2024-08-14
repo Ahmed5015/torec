@@ -1,7 +1,7 @@
 {
   "header": {
     "logo": {
-      "link": "https://airbnb.io/javascript/react/#naming"
+      "link": ""
     },
     "nav": [
       {
@@ -37,6 +37,135 @@
     "hero": {
       "bgImg": "",
       "title": ""
+    },
+    "zigzag": {
+      "firstSection": [
+        {
+          "text": {
+            "title": "Professional Background",
+            "content": "With over a decade of sales experience, Summer has been at the forefront of the real estate industry, consistently ranking in the top 5-10% of realtors in the state for six consecutive years. Summer's extensive experience spans various niches of real estate, from assisting new investors to handling estates and family purchases. Her expertise ensures she can navigate and manage even the most complex transactions with ease."
+          },
+          "img": {
+            "src": "/images/about-us/AboutUsZigZag1.svg",
+            "description": "A lady in a coat"
+          }
+        },
+        {
+          "text": {
+            "title": "Mission and Values",
+            "content": "The Ohio Real Estate Consultant's mission is to remove the fluff from real estate, enabling consumers to save money and feel empowered throughout the process. We believe in providing clear, straightforward guidance to help our clients make informed decisions and achieve their real estate goals."
+          },
+          "img": {
+            "src": "/images/about-us/AboutUsZigZag2.svg",
+            "description": "two man discussing something"
+          }
+        },
+        {
+          "text": {
+            "title": "Our Mission",
+            "content": "At The Ohio Real Estate Consultant team at BHHS Professional Realty, our mission is to remove the fluff from real estate, enabling consumers to save money and feel empowered throughout the process. We believe in providing clear, straightforward guidance to help our clients make informed decisions and achieve their real estate goals."
+          },
+          "img": {
+            "src": "/images/about-us/AboutUsZigZag3.svg",
+            "description": "three person in a meeting"
+          }
+        }
+      ]
+    },
+    "team": {
+      "meetOurTeam": [
+        {
+          "name": "Alpha Junkie",
+          "role": "Agent",
+          "imageUrl": "/images/about-us/MeetOurTeam.svg"
+        },
+        {
+          "name": "John Doe",
+          "role": "CFO",
+          "imageUrl": "/images/about-us/MeetOurTeam2.svg"
+        },
+        {
+          "name": "Barbara F.",
+          "role": "Front Office Manager",
+          "imageUrl": "/images/about-us/MeetOurTeam1.svg"
+        }
+      ],
+      "executiveProfile": {
+        "text": {
+          "title": "Meet Summer: Your Trusted Real Estate Consultant",
+          "subTitle": "Professional Background:",
+          "content": "With over a decade of sales experience, Summer has been at the forefront of the real estate industry, consistently ranking in the top 5-10% of realtors in the state for six consecutive years. Summer's extensive experience spans various niches of real estate, from assisting new investors to handling estates and family purchases. Her expertise ensures she can navigate and manage even the most complex transactions with ease."
+        },
+        "img": {
+          "src": "/images/about-us/AboutUsZigZag1.svg",
+          "description": "A lady in a coat"
+        }
+      },
+
+      "ourGoal": {
+        "text": {
+          "title": "Our Goal",
+          "content": "Our goal is to demystify the real estate process, providing our clients with the knowledge and tools they need to make informed decisions and achieve their real estate dreams. We are committed to delivering outstanding service and creating positive, lasting relationships with our clients."
+        },
+        "img": {
+          "src": "/images/about-us/AboutUsOurGoal.svg",
+          "description": "A Key in front of Sun"
+        }
+      }
     }
+  },
+  "footer": {
+    "logo": "/logos/footerLogo.svg",
+    "disclaimer": "©2024 BHH Affiliates, LLC. An independently owned and operated franchisee of BHH Affiliates, LLC. Berkshire Hathaway HomeServices and the Berkshire Hathaway HomeServices symbol are registered service marks of Columbia Insurance Company, a Berkshire Hathaway affiliate. Equal Housing Opportunity.",
+    "website": [
+      {
+        "text": "Buyers",
+        "link": ""
+      },
+      {
+        "text": "Seller",
+        "link": ""
+      },
+      {
+        "text": "About Us",
+        "link": ""
+      },
+      {
+        "text": "Reviews",
+        "link": ""
+      },
+      {
+        "text": "Contact Us",
+        "link": ""
+      }
+    ],
+    "contact": [
+      {
+        "iconLink": "",
+        "text": "216-501-7435"
+      },
+      {
+        "iconLink": "",
+        "text": "hey@xyz.com"
+      },
+      {
+        "iconLink": "",
+        "text": "6814 Detroit Ave.Cleveland, OH 44102"
+      }
+    ],
+    "lastSection": [
+      {
+        "iconLink": "",
+        "text": "Equal Housing OPPORTUNITIES"
+      },
+      {
+        "iconLink": "",
+        "text": "Affiliated with Berkshire Hathaway HomeServices Professional Realty"
+      },
+      {
+        "iconLink": "",
+        "text": "© The Ohio Real Estate Consultant"
+      }
+    ]
   }
 }

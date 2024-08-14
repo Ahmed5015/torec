@@ -1,11 +1,11 @@
 import React from "react";
 import Image from "next/image";
-import aboutUsImage from "../../../public/images/AboutUsBackground.png";
+
 const Hero = ({ title = "About Us" }) => {
   return (
-    <div className="relative h-[36rem] w-11/12 ">
+    <div className="relative h-[36rem] w-full ">
       <Image
-        src="/images/AboutUsBackground.png"
+        src="/images/about-us/AboutUsBackground.png"
         alt="About Us"
         layout="fill"
         objectFit="cover"

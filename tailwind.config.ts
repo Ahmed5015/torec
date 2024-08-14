@@ -22,6 +22,10 @@ const config = {
         none: "none",
         blur: "blur(20px)",
       },
+      backgroundImage: {
+        "gradient-to-b":
+          "linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.7) 100%)",
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -52,6 +56,18 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        bigStone: {
+          DEFAULT: "#293338", //600
+          50: "#e6ebed",
+          100: "#c2cfd6",
+          200: "#9db2bd",
+          300: "#7896a4",
+          400: "#536a8b",
+          500: "#334046",
+          700: "#1f262a",
+          800: "#141a1c",
+          900: "#0a0d0e",
+        },
         customPalette: {
           DEFAULT: "#5A67D8",
           "50": "#EDEFFA",
@@ -65,19 +81,6 @@ const config = {
           "800": "#272C6D",
           "900": "#1B1F49",
         },
-        'big-stone': {
-          50: '#e6ebed',  
-          100: '#c2cfd6',
-          200: '#9db2bd',
-          300: '#7896a4',
-          400: '#536a8b',
-          500: '#334046',  
-          600: '#293338',
-          700: '#1f262a',
-          800: '#141a1c',
-          900: '#0a0d0e'   
-        },
-      },
       },
       borderRadius: {
         lg: "var(--radius)",
