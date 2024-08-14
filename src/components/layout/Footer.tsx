@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
           <a href="" className="text-white text-xl font-bold">
             <img className="w-32" src={FooterData.logo} alt="Main Logo" />
           </a>
-          <p className="text-[8px] mt-2">
+          <p className="text-[8px] text-bigStone-300 mt-2">
             ©2024 BBH Affiliates, LLC. An independently owned and operated
             franchisee of BBH Affiliates, LLC. Berkshire Hathaway HomeServices
             and the Berkshire Hathaway HomeServices symbol are registered
@@ -28,48 +28,75 @@ const Footer: React.FC = () => {
           </p>
         </div>
 
-        <div className="text-center">
-          <h3 className="font-bold text-primary">Website</h3>
-          <ul className="mt-2 space-y-1">
-            <li>Buyers</li>
-            <li>Seller</li>
-            <li>About Us</li>
-            <li>Reviews</li>
-            <li>Contact Us</li>
-          </ul>
+        <div className="flex  align-middle justify-center">
+          <div className="flex flex-col gap-2">
+            <h3 className="mb-2 font-bold text-primary">Website</h3>
+            <ul className="flex-col flex gap-1 space-y-3 text-sm">
+              <li>Buyers</li>
+              <li>Seller</li>
+              <li>About Us</li>
+              <li>Reviews</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
         </div>
 
         <div>
-          <h3 className="font-bold text-primary">Contact & Details</h3>
-          <ul className="mt-2 space-y-1">
-            <li>Phone: 216-501-7435</li>
-            <li>Email: hey@xyz.com</li>
-            <li>Address: 6814 Detroit Ave. Cleveland, OH 44102</li>
+          <h3 className="mb-4 font-bold text-primary">Contact & Details</h3>
+          <ul className=" flex-col flex gap-4 mt-2 space-y-3 text-sm">
+            <li className="flex gap-1">
+              <img
+                src="/icons/Footer/call.svg"
+                alt="BHHS Affiliated"
+                className="h-4 mt-1"
+              />{" "}
+              216-501-7435
+            </li>
+            <li className="flex gap-1">
+              <img
+                src="/icons/Footer/mail.svg"
+                alt="BHHS Affiliated"
+                className="h-4 mt-1"
+              />{" "}
+              hey@xyz.com
+            </li>
+            <li className="flex gap-1">
+              <img
+                src="/icons/Footer/location.svg"
+                alt="BHHS Affiliated"
+                className="h-4 mt-1"
+              />{" "}
+              6814 Detroit Ave. Cleveland, OH 44102
+            </li>
           </ul>
         </div>
 
-        <div className="flex gap-2 p-4 ">
+        <div className="flex gap-2 p-4 mt-4">
           <img
             src="/icons/Footer/home.svg"
             alt="BHHS Affiliated"
             className="h-12"
           />
-          <p className="text-[12px] ">Equal Housing Oppurtunity</p>
+          <p className="text-[12px] text-bigStone-300">
+            Equal Housing Oppurtunity
+          </p>
         </div>
-        <div className="flex gap-2 flex-shrink-1 p-4  text-center">
+        <div className="flex gap-2 flex-shrink-1 p-4  text-center mt-4">
           <img
             src="/icons/Footer/bhhsLogo.svg"
             alt="Equal Housing Opportunity"
             className="h-9"
           />
 
-          <p className="text-[12px] text-left">
+          <p className="text-[12px] text-left  text-bigStone-300">
             Affiliated with Berkshire Hathaway HomeServices Professional Realty
           </p>
         </div>
 
-        <div className="flex text-center pt-4">
-          <p className="text-[12px]">© The Ohio Real Estate Consultant</p>
+        <div className="flex text-center pt-4 mt-4">
+          <p className="text-[12px]  text-bigStone-300">
+            © The Ohio Real Estate Consultant
+          </p>
         </div>
       </div>
     </footer>

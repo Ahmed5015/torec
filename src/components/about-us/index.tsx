@@ -11,7 +11,7 @@ import Footer from "../layout/Footer";
 const AboutUs = () => {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar /> */}
       <div className="m-12">
         <div className="flex justify-center">
           <Hero />
@@ -23,7 +23,7 @@ const AboutUs = () => {
             description="We offer a comprehensive range of services tailored to meet the unique needs of buyers and sellers."
           />
         </div>
-        <div className="flex gap-10 py-10">
+        {/* <div className="flex gap-10 py-10">
           <InfoCard
             title="For Buyers"
             description="Expert guidance, comprehensive search assistance, streamlined buying processes, negotiation expertise, and client portal access."
@@ -32,8 +32,8 @@ const AboutUs = () => {
             title="For Sellers"
             description="Full-service listing programs, professional photography and videography, digital marketing and advertising, secure and convenient showings, market insights, expert negotiation, transaction management, and client portal access."
           />
-        </div>
-        <div className="mt-6">
+        </div> */}
+        {/* <div className="mt-6">
           <WhyChooseUsSection
             title="Why Choose Us"
             bgColor="bigStone-50"
@@ -46,7 +46,7 @@ const AboutUs = () => {
             bgColor="secondary"
             color="white"
           />
-        </div>
+        </div> */}
 
         <MeetOurTeam />
         <div>

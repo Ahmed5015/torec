@@ -57,13 +57,13 @@ const config = {
           foreground: "hsl(var(--card-foreground))",
         },
         bigStone: {
-          DEFAULT: "#293338", //600
+          DEFAULT: "#415F88", //600
           50: "#e6ebed",
           100: "#c2cfd6",
-          200: "#9db2bd",
-          300: "#7896a4",
+          200: "#CFD9E8",
+          300: "#A5BAD4",
           400: "#536a8b",
-          500: "#334046",
+          500: "#5478A3",
           700: "#1f262a",
           800: "#141a1c",
           900: "#0a0d0e",

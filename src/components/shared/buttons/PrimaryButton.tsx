@@ -16,19 +16,19 @@ const PrimaryButton: React.FC<ServiceCardProps> = ({
 }) => {
   const [navBarData, setNavBarData] = useState(Data);
   return (
-    <div className="flex">
+    <div className="flex mt-3">
       <button
         onClick={Handler}
-        className={` bg-${bgColor} text-white  text-[1rem]  px-5 py-3  rounded-full hover:bg-${hoverColor} `}
+        className={` text-white   bg-${bgColor} text-[10px] md:text-[1rem] px-3 py-2 md:px-5 md:py-3  rounded-full hover:text-${hoverColor} `}
       >
         {text}
       </button>
 
       <button
-        className={` bg-${bgColor} text-white  px-5 rounded-full hover:bg-${hoverColor}`}
+        className={` text-white bg-${bgColor}  p-2 md:px-3 rounded-full hover:text-${hoverColor} `}
       >
         <svg
-          className="w-6 h-6 -rotate-45"
+          className="w-4 h-4 md:w-6 md:h-6 -rotate-45"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"

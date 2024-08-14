@@ -15,11 +15,13 @@ const MeetOurTeam: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {teamData &&
             teamData.team.meetOurTeam.map((member, index) => (
-              <TeamMemberCard
-                name={member.name}
-                role={member.role}
-                imageUrl={member.imageUrl}
-              />
+              <div key={index}>
+                <TeamMemberCard
+                  name={member.name}
+                  role={member.role}
+                  imageUrl={member.imageUrl}
+                />
+              </div>
             ))}
         </div>
       </div>

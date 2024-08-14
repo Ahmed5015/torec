@@ -6,11 +6,11 @@ const toolsIcon = "/icons/AboutUsChooseUs2.svg";
 
 const WhyChooseUsSection = ({ title = "", bgColor = "", color = "" }) => {
   return (
-    <div className={`max-w-7xl  px-4 py-12 bg-${bgColor} rounded-2xl`}>
-      <h2 className={`text-3xl font-bold text-center mb-10 text-${color}`}>
+    <div className={`max-w-full p-14 bg-${bgColor} rounded-2xl`}>
+      <h2 className={`text-3xl font-bold text-left mb-16 text-${color}`}>
         {title}
       </h2>
-      <div className="flex justify-center gap-10">
+      <div className="flex justify-center gap-10 mb-12">
         <FeatureCard
           iconSrc={expertiseIcon}
           title="Expertise and Experience"
