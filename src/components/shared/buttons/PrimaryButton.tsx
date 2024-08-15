@@ -19,16 +19,16 @@ const PrimaryButton: React.FC<ServiceCardProps> = ({
     <div className="flex mt-3">
       <button
         onClick={Handler}
-        className={` text-white   bg-${bgColor} text-[10px] md:text-[1rem] px-3 py-2 md:px-5 md:py-3  rounded-full hover:text-${hoverColor} `}
+        className={` text-white   bg-${bgColor} text-[10px] md:text-[9px] lg:text-[1rem] px-3 py-2 md:px-5 md:py-3  rounded-full hover:text-${hoverColor} `}
       >
         {text}
       </button>
 
       <button
-        className={` text-white bg-${bgColor}  p-2 md:px-3 rounded-full hover:text-${hoverColor} `}
+        className={` text-white bg-${bgColor}  p-2   lg:px-3 rounded-full hover:text-${hoverColor} `}
       >
         <svg
-          className="w-4 h-4 md:w-6 md:h-6 -rotate-45"
+          className="w-4 h-4 md:h-5 md:w-5 lg:w-6 lg:h-6 -rotate-45"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
